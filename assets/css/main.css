@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #888; /*muda a cor da letra da esquerda(fundo branco)*/
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #eb0303 !important;
+			color: #786F52 !important;
 		}
 
 	strong, b {
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #786F52; /*muda a cor da letra dos titulos*/
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -2402,7 +2402,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #16ce05; /*muda a cor dos icones das habilidades*/
+				background: #928563; /*muda a cor dos icones das habilidades*/
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2700,7 +2700,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #a1a1a1d5; /*muda a cor da barra de perfil*/
+		background: #416065; /*muda a cor da barra de perfil*/
 		color: #b3b3b6c7;
 		height: 100%;
 		overflow-y: auto;
@@ -2716,7 +2716,7 @@ input, select, textarea {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #050505; /*muda a cor do nome*/
+				color: #F9F9F9; /*muda a cor do nome*/
 			}
 
 		#header header p {
@@ -2728,7 +2728,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #0d085a !important; /*muda a cor do nomezinho quando passa a mouse*/
+				color: #6A706E !important; /*muda a cor do nomezinho quando passa a mouse*/
 			}
 
 		#header > header {
@@ -2751,7 +2751,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #d2f2e9; /*muda a cor do titulo da profissao*/
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2772,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #000000;
+					color: #233e48; /*muda a cor dos icones da barra lateral (github,email,etc.)*/
 				}
 
 		#header > nav {
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #d6d7d8; /*muda a cor das linhas dos botoes da barra de perfil*/
+					border-top: solid 2px #416065; /*muda a cor das linhas dos botoes da barra de perfil*/
 					display: block;
 					padding: 0;
 				}
