@@ -7,6 +7,22 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Linhas importantes: 
+105 128 141 1797 2409 2707 2723 2735 2758 2779 2796 2807 2815 
+*/
+
+/* Paleta de Cores:
+Branco: FFFFFC
+Preto: 0A0A0B
+Cinza: 313235
+
+
+Laranja
+Azul
+
+*/
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -98,7 +114,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888; /*muda a cor da letra da esquerda(fundo branco)*/
+		color: #0A0A0B; /*muda a cor da letra da esquerda(fundo branco)*/
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -117,11 +133,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #786F52 !important;
+			color: #000000 !important;
 		}
 
 	strong, b {
-		color: #777;
+		color: rgb(224, 116, 21); /* muda a cor do negrito*/
 		font-weight: 700;
 	}
 
@@ -134,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #786F52; /*muda a cor da letra dos titulos*/
+		color: #0A0A0B; /*muda a cor da letra dos titulos*/
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1759,7 +1775,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: rgb(10, 10, 11); 
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1790,7 +1806,7 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #0A0A0B; /*Muda a cor do primeiro titulo (no caso,'Perfil')*/
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -1848,7 +1864,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ad0b98;
+			border-color: #bdb8b8;
 		}
 
 	select {
@@ -2402,7 +2418,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #928563; /*muda a cor dos icones das habilidades*/
+				background: #F68551; /*muda a cor dos icones das habilidades*/
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2700,7 +2716,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #416065; /*muda a cor da barra de perfil*/
+		background: #313235; /*muda a cor da barra de perfil*/
 		color: #b3b3b6c7;
 		height: 100%;
 		overflow-y: auto;
@@ -2716,7 +2732,7 @@ input, select, textarea {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #F9F9F9; /*muda a cor do nome*/
+				color: #FFFFFC; /*muda a cor do nome*/
 			}
 
 		#header header p {
@@ -2728,7 +2744,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #6A706E !important; /*muda a cor do nomezinho quando passa a mouse*/
+				color: #F68551 !important; /*muda a cor do nomezinho quando passa a mouse*/
 			}
 
 		#header > header {
@@ -2751,7 +2767,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9; /*muda a cor do titulo da profissao*/
+				color: #DA9344; /*muda a cor do titulo da profissao*/
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2788,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #233e48; /*muda a cor dos icones da barra lateral (github,email,etc.)*/
+					color: #FFFFFC; /*muda a cor dos icones da barra lateral (github,email,etc.)*/
 				}
 
 		#header > nav {
@@ -2789,7 +2805,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #416065; /*muda a cor das linhas dos botoes da barra de perfil*/
+					border-top: solid 2px #313235; /*muda a cor das linhas dos botoes da barra de perfil*/
 					display: block;
 					padding: 0;
 				}
@@ -2800,7 +2816,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important; /*muda a cor da letra das barrinhas*/
+						color: #FFFFFC !important; /*muda a cor da letra das barrinhas*/
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2808,7 +2824,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #050505 !important; /*muda a cor da letra das barrinhas quando em evidencia*/
+							color: #F68551 !important; /*muda a cor da letra das barrinhas quando em evidencia*/
 						}
 
 					#header > nav ul li:first-child {
