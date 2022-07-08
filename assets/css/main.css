@@ -1806,7 +1806,7 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color: #0A0A0B; /*Muda a cor do primeiro titulo (no caso,'Perfil')*/
+			color: #FFFFFF; /*Muda a cor do primeiro titulo (no caso,'Perfil')*/
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
